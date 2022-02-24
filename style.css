@@ -1,5 +1,5 @@
 body {
-    width: 905px;
+    width: 910px;
     margin: auto;
     margin-top: 50px;
 }
@@ -8,7 +8,7 @@ body {
 }
 main {
     display: grid;
-    grid-template-columns: 45px 5fr 1.8fr;
+    grid-template-columns: 47px 7fr 2fr;
     height: 75px;
     background-image: url("lab-assets/hr-img.png");
     background-repeat: repeat-x;
@@ -23,25 +23,25 @@ h4 {
     margin-top: 0px;
     padding: 0px;
     font-size: 15px;
-    color:gray;
+    color:rgb(99, 99, 99);
 }
-#logo {
-    margin-top: 6px;
+#one {
+    margin-top: 5px;
 }
 
 p{
-    width: 905px;
+    width: 910px;
 }
 #img{
     display:flex;
     justify-content: center;
 }
-#Print{
+#two{
 display: flex;
 height: 15px
 }
 
-#author{
+#five{
     background-image: url("lab-assets/hr-img.png");
     background-repeat: repeat-x;
     background-size: 10px;
@@ -50,7 +50,7 @@ height: 15px
     grid-template-columns: 90px 430px 1fr;
     }
   
-    #checkbox-section {
+    #checklist {
         background-image: url("lab-assets/list-bg.png");
         width: 900px;
       height: 300px;
